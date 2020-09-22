@@ -88,14 +88,14 @@ typedef enum
 // This one switches between MIT SHM (no proper mouse)
 // and XFree86 DGA (mickey sampling). The original
 // linuxdoom used SHM, which is default.
-//#define X11_DGA		1
+#define X11_DGA		1
 
 
 //
 // For resize of screen, at start of game.
 // It will not work dynamically, see visplanes.
 //
-#define	BASE_WIDTH		320
+#define	BASE_WIDTH		160
 
 // It is educational but futile to change this
 //  scaling e.g. to 2. Drawing of status bar,
@@ -107,12 +107,12 @@ typedef enum
 // Defines suck. C sucks.
 // C++ might sucks for OOP, but it sure is a better C.
 // So there.
-#define MAX_SCREEN_BLOCKS 11
-#define MAX_SCREEN_SIZE (MAX_SCREEN_BLOCKS - 3)
+#define MAX_SCREEN_BLOCKS 0
+#define MAX_SCREEN_SIZE = (MAX_SCREEN_BLOCKS - 3)
 
-#define SCREENWIDTH  320
+#define SCREENWIDTH  160
 //SCREEN_MUL*BASE_WIDTH //320
-#define SCREENHEIGHT 200
+#define SCREENHEIGHT 60
 //(int)(SCREEN_MUL*BASE_WIDTH*INV_ASPECT_RATIO) //200
 
 
