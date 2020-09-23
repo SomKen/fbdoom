@@ -5,6 +5,8 @@ The LCD screen is far too small to be able to see anything inside doom. Playing 
 
 In order to get this "running." you first need to SSH into your cloudkey and run "killall ck-ui" to all for use of /dev/fb0 without the controller updating the screen on its own.
 
+Video: https://www.youtube.com/watch?v=iEap5nSBxus
+
 ---
 This port of the original Doom source code targets Linux Framebuffer, without any intermediate abstraction layer (like SDL).
 
